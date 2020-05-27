@@ -5,6 +5,8 @@ import VueRouter from 'vue-router'
 Vue.use(VueRouter)
 import MintUI from 'mint-ui'
 Vue.use(MintUI)
+import 'mint-ui/lib/style.css'
+
 //这里可以省略node_modules这一层目录
 import 'mint-ui/lib/style.css'
 //导入bootstarp图标

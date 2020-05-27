@@ -16,6 +16,7 @@
     "vue-resource": "^1.5.1"
   },
   "devDependencies": {
+    "babel-plugin-transform-remove-strict-mode": "^0.0.2",
     "bootstrap": "^4.5.0",
     "css-loader": "^3.5.3",
     "file-loader": "^6.0.0",
