@@ -91,7 +91,7 @@ export default {
    *{
        touch-action: pan-y;
    }
-   img[lazy="loading"]{
+   .img[lazy="loading"]{
          width: 40px;
          height: 300px;
          margin: auto;
@@ -110,7 +110,7 @@ export default {
        padding: 10px;
        padding-bottom: 0px;
    }
-   img{
+   .photo img{
        width: 100%;
        height: 300px;
    }

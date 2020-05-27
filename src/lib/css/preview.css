@@ -1,0 +1,15 @@
+.my-gallery{
+    display: flex !important;
+    flex-wrap:wrap !important;
+}
+ figure{
+       width: 30% !important;
+        margin: 5px !important;
+}
+
+.my-gallery figure img{
+            width: 100%  !important;
+            height: 64px;
+            box-shadow: 0 0 8px #999 !important;
+            border-radius: 5px !important;
+}

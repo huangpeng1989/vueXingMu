@@ -5,6 +5,9 @@ import VueRouter from 'vue-router'
 Vue.use(VueRouter)
 import MintUI from 'mint-ui'
 Vue.use(MintUI)
+//安装图片预览
+import VuePreview from 'vue-preview'
+Vue.use(VuePreview)
 import 'mint-ui/lib/style.css'
 
 //这里可以省略node_modules这一层目录
@@ -14,13 +17,15 @@ import 'bootstrap/dist/css/bootstrap.css'
 import 'open-iconic/font/css/open-iconic-bootstrap.css'
 import './lib/css/mui.min.css'
 import './lib/css/icons-extra.css'
-
+import './lib/css/preview.css'
 import app from './App.vue'
 
 import  router from  './router.js'
 
 import Resource from 'vue-resource'
 Vue.use(Resource)
+
+
 
 //定义时间过滤器
 Vue.filter('dataFormat',function(dataStr,pattern="YYYY-MM-DD HH:mm:ss")
