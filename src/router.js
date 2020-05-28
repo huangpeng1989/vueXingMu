@@ -7,7 +7,10 @@ import news from './vue/news/news.vue'
 import newinfo from './vue/news/newinfo.vue'
 import photolist from './vue/photo/photolist.vue'
 import photoinfo from './vue/photo/photoinfo.vue'
-
+import shoplist from './vue/shop/shoplist.vue'
+import shopinfo from './vue/shop/shopinfo.vue'
+import desc from './vue/shop/desc.vue'
+import comment from './vue/shop/comment.vue'
 var router = new VueRouter({
     routes:[
        {path:'/',redirect: '/home'},
@@ -18,7 +21,11 @@ var router = new VueRouter({
        {path:'/home/news',component:news},
        {path:'/home/newinfo/:id',component:newinfo},
        {path:'/home/photolist',component:photolist},
-       {path:'/home/photoinfo/:id',component:photoinfo}
+       {path:'/home/photoinfo/:id',component:photoinfo},
+       {path:'/home/shoplist',component:shoplist},
+       {path:'/home/shopinfo/:id',component:shopinfo,name:"shopinfo"},
+       {path:'/home/desc/:id',component:desc,name:"desc"},
+       {path:'/home/comment/:id',component:comment,name:"comment"}
     ],
     linkActiveClass:'mui-active'
 });
