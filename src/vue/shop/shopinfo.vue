@@ -98,7 +98,6 @@ export default {
 
 		getSelectedCount(count){
 			this.selectCoutn = count ;
-			alert(this.selectCoutn);
 		},
 
 		getShopInfo(){
@@ -115,9 +114,13 @@ export default {
 				id
 			}})
 		},
+
 		addToShopCar(){
 			this.ballFlag = !this.ballFlag;
-		},
+            var goodsinfo = {id:this.id,count:this.selectCoutn,price:this.shopinfo.new,selected:true}
+	        this.$store.commit("addToCar",goodsinfo);
+	
+	},
 		beforeEnter(el){
              el.style.transform="translate(0,0)"
 		},

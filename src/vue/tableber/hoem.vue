@@ -5,31 +5,31 @@
         <ul class="mui-table-view mui-grid-view mui-grid-9">
 		            <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
 		                 <router-link to="/home/news">
-                            <img :src=" png1.src" alt=""/>
+                            <img src="../../image/menu1.png" alt=""/>
 		                    <div class="mui-media-body">新闻资讯</div>
                         </router-link>
                     </li>
 		            <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
                         <router-link to="/home/photolist">
-		                    <img :src=" png2.src" alt=""/>
+		                    <img src="../../image/menu2.png" alt=""/>
 		                    <div class="mui-media-body">图片分享</div>
                         </router-link>
                     </li>
 		            <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
 		               <router-link to="/home/shoplist">
-                            <img :src=" png3.src" alt=""/>
+                            <img src="../../image/menu3.png" alt=""/>
 		                    <div class="mui-media-body">商品购买</div>
                          </router-link>
                             
                     </li>
 		            <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3"><a href="#">
-		                   <img :src=" png4.src" alt=""/>
+		                   <img src="../../image/menu4.png" alt=""/>
 		                    <div class="mui-media-body">留言反馈</div></a></li>
 		            <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3"><a href="#">
-		                    <img :src=" png5.src" alt=""/>
+		                    <img src="../../image/menu5.png" alt=""/>
 		                    <div class="mui-media-body">视频专区</div></a></li>
 		            <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3"><a href="#">
-		                    <img :src=" png6.src" alt=""/>
+		                    <img src="../../image/menu5.png" alt=""/>
 		                    <div class="mui-media-body">联系我们</div></a></li>
 		        
 		</ul>
@@ -48,13 +48,7 @@
                 loubotuList:[{id:1,img:'../../image/1.jpg'},
                 {id:2,img:'../../image/2.jpg'},
                 {id:3,img:'../../image/3.jpg'}
-                ],
-                png1:{id:1,src:'../../image/menu1.png'},
-                png2:{id:1,src:'../../image/menu2.png'},
-                png3:{id:1,src:'../../image/menu3.png'},
-                png4:{id:1,src:'../../image/menu4.png'},
-                png5:{id:1,src:'../../image/menu5.png'},
-                png6:{id:1,src:'../../image/menu6.png'},
+                ]
             }
         },
         components:{

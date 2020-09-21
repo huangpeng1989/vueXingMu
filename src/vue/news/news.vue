@@ -4,7 +4,7 @@
            <ul class="mui-table-view">
 			   <li class="mui-table-view-cell mui-media">
 				   <router-link to="/">
-						<img class="mui-media-object mui-pull-left" :src="jpg2.src">
+						<img class="mui-media-object mui-pull-left" src="../../image/shuijiao.jpg">
 						<div class="mui-media-body">
 							木屋
 							<p class="mui-ellipsis">
@@ -16,7 +16,7 @@
 				</li>
 				<li class="mui-table-view-cell mui-media">
 					<a href="javascript:;" class="">
-						<img class="mui-media-object mui-pull-left" :src="jpg3.src">
+						<img class="mui-media-object mui-pull-left" src="../../image/cbd.jpg">
 						<div class="mui-media-body">
 							CBD
 							<p class="mui-ellipsis">
@@ -28,7 +28,7 @@
 				</li>
 				<li class="mui-table-view-cell mui-media">
 					<router-link :to="'/home/newinfo/1'">
-						<img class="mui-media-object mui-pull-left" :src="jpg1.src">
+						<img class="mui-media-object mui-pull-left" src="../../image/shuijiao.jpg">
 						<div class="mui-media-body">
 							幸福
 							<p class="mui-ellipsis">
@@ -42,7 +42,7 @@
 				
 	           <li class="mui-table-view-cell mui-media">
 						<a href="javascript:;">
-							<img class="mui-media-object mui-pull-left" :src="jpg1.src">
+							<img class="mui-media-object mui-pull-left" src="../../image/muwu.jpg">
 							<div class="mui-media-body">
 								幸福
 								<p class="mui-ellipsis">
@@ -54,7 +54,7 @@
 					</li>
 					<li class="mui-table-view-cell mui-media">
 						<a href="javascript:;">
-							<img class="mui-media-object mui-pull-left" :src="jpg2.src">
+							<img class="mui-media-object mui-pull-left" src="../../image/shuijiao.jpg">
 							<div class="mui-media-body">
 								木屋
 								<p class="mui-ellipsis">
@@ -66,7 +66,7 @@
 					</li>
 					<li class="mui-table-view-cell mui-media">
 						<a href="javascript:;" class="">
-							<img class="mui-media-object mui-pull-left" :src="jpg3.src">
+							<img class="mui-media-object mui-pull-left" src="../../image/cbd.jpg">
 							<div class="mui-media-body">
 								CBD
 								<p class="mui-ellipsis">
@@ -79,7 +79,7 @@
 
 					<li class="mui-table-view-cell mui-media">
 						<a href="javascript:;">
-							<img class="mui-media-object mui-pull-left" :src="jpg2.src">
+							<img class="mui-media-object mui-pull-left" src="../../image/muwu.jpg">
 							<div class="mui-media-body">
 								木屋
 								<p class="mui-ellipsis">
@@ -91,7 +91,7 @@
 					</li>
 					<li class="mui-table-view-cell mui-media">
 						<a href="javascript:;" class="">
-							<img class="mui-media-object mui-pull-left" :src="jpg3.src">
+							<img class="mui-media-object mui-pull-left" src="../../image/cbd.jpg">
 							<div class="mui-media-body">
 								CBD
 								<p class="mui-ellipsis">
@@ -111,9 +111,7 @@
   export default{
        data() {
             return {
-                jpg1:{id:1,src:'../../image/shuijiao.jpg'},
-                jpg2:{id:1,src:'../../image/muwu.jpg'},
-                jpg3:{id:1,src:'./../image/cbd.jpg'},
+               
             }
         }
        

@@ -26,9 +26,23 @@ module.exports = {
             {test: /\.css$/,use: ['style-loader','css-loader']} 
             //配置处理css文件第三方loader规则 ，先安装 npm i style-loader css-loader -D
            , {test: /\.vue$/,use: 'vue-loader'} ,
-           {test:/\.(png|jpg|ttf|eot|svg|woff|woff2|otf)$/, use: 'url-loader'}
-           ,{test:/vue-preview.src.*?js$/,loader:'babel'}
-        ]
+           {test:/\.(ttf|eot|svg|woff|woff2|otf)$/, use: 'url-loader'}
+           ,{test:/vue-preview.src.*?js$/,loader:'babel'},
+           {test:/\.(jpg|png|gif)$/,
+            use: [
+                  {
+                     loader: "file-loader",
+                     options: {
+                        limit: 1,
+                        name: 'image/[name].[ext]',
+                        esModule:false
+                     }
+               }
+              ]
+            }
+        ],
+        
 
-     }
+     },
+     mode: 'development'
 }
